@@ -26,6 +26,8 @@ Essentially it is a way to capture a set of coordinates for each joint (arm, hea
   python3 -m virtualenv --system-site-packages /home/UserName/python
   ```
   Activate the virtual environment using the following command. </br>
+  ```Python
   source /home/UserName/python/bin/activate
- 
+  ```
+
 ### Step 3: Install Torch & Torchvision 
