@@ -1,4 +1,4 @@
-# Human Pose-Estimation Using Jetson/Xavier
+# Human Pose-Estimation Using Jetson/NX
 
 ## Introduction
 Human Pose Estimation (HPE) is a way of identifying and classifying the joints in the human body.
