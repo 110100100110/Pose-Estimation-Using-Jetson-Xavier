@@ -76,3 +76,13 @@ Essentially it is a way to capture a set of coordinates for each joint (arm, hea
   python3 setup.py install
   ```
 ### Step 5: Run HPE
+1. Open terminal & Activate Virtual Environment
+  ```python
+  source /home/Your-Jetson-UserName/python/bin/activate
+  ```
+2. Change Directory to: src/trt_pose/tasks/human_pose/
+  ```python
+  cd src/trt_pose/tasks/human_pose/
+  python3 final_code_modify_changed_2_final.py
+  ```
+#
