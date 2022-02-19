@@ -52,15 +52,27 @@ Essentially it is a way to capture a set of coordinates for each joint (arm, hea
   pip3 uninstall pillow
   pip3 install --no-cache-dir pillow
   ```
-### Step 4: Install Torch2TRT
-1. Download Torch2TRT [here](http://bit.ly/2Y8h5fP).
-2. Inside the File, Copy the torch2trt folder.
-3. Create a Directory name src in the Home Dierectory and Save the Copied File.
+### Step 4: Setup Torch2TRT, TRT-Pose & Human-Pose
+1. Create a Directory name src in the Home Dierectory and Save the Torch2TRT, TRT-Pose & Human-Pose.
   ```python
   sudo mkdir src
-  cd src/torch2trt
+  cd src/(save all the files)
+  ```
+#### Setting Up Torch2TRT
+  ```python
+  cd src/tort2trt
   sudo apt-get install python3-matplotlib
   pip3 install tqdm cython pycocotools
   python3 setup.py install
   ```
- 
+#### Setting Up TRT-Pose
+  ```python
+  cd ../trt_pose
+  python3 setup.py install
+  ```
+#### Setting Up Human-Pose
+  ```python
+  cd ../human_pose
+  python3 setup.py install
+  ```
+### Step 5: Run HPE
