@@ -7,7 +7,7 @@ Essentially it is a way to capture a set of coordinates for each joint (arm, hea
 
 ## Installation Guide
 
-### Step 1: Setting Up Jetpack On Jetson Device
+### Step 1: Setting Up OS on Jetson Device
 
 1. Install Jetpack/OS on Jetson Device [guide](https://developer.nvidia.com/embedded/learn/get-started-jetson-xavier-nx-devkit).
 2. After installing Jetpack on Jetson Device, follow the basic system configuration.
