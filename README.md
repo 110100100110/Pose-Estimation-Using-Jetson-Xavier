@@ -32,7 +32,7 @@ Essentially it is a way to capture a set of coordinates for each joint (arm, hea
 
 ### Step 3: Install Torch & Torchvision
 #### Torch Installation
-1. Inside The Virtual Environment Install the Following
+1. Inside The Virtual Environment Install the Following.
   ```python
   sudo apt-get install python3-pip libopenblas-base libopenmpi-dev
   sudo apt-get install wget
@@ -41,7 +41,7 @@ Essentially it is a way to capture a set of coordinates for each joint (arm, hea
   pip3 install torch-1.6.0-cp36-cp36m-linux_aarch64.whl
   ```
 #### Torchvision Installation
-1. Inside The Virtual Environment Install the Following
+1. Inside The Virtual Environment Install the Following.
   ```python
   sudo apt-get install libjpeg-dev zlib1g-dev
   wget https://github.com/pytorch/vision/archive/v0.6.1.tar.gz
@@ -52,5 +52,15 @@ Essentially it is a way to capture a set of coordinates for each joint (arm, hea
   pip3 uninstall pillow
   pip3 install --no-cache-dir pillow
   ```
-
-
+### Step 4: Install Torch2TRT
+1. Download Torch2TRT [here](http://bit.ly/2Y8h5fP).
+2. Inside the File, Copy the torch2trt folder.
+3. Create a Directory name src in the Home Dierectory and Put the Copied File.
+  ```python
+  sudo mkdir src
+  cd src/torch2trt
+  sudo apt-get install python3-matplotlib
+  pip3 install tqdm cython pycocotools
+  python3 setup.py install
+  ```
+  
